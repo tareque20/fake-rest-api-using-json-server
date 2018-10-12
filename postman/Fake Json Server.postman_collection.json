@@ -1,0 +1,193 @@
+{
+	"id": "b4801e63-e7e8-b12c-6c67-42973b765dd5",
+	"name": "Fake Json Server",
+	"description": "",
+	"order": [
+		"059e7b41-4ac8-9e46-dac9-4a0bee4e0a4c",
+		"263bff69-f3f2-fdc5-baa6-338de1be972f",
+		"1c045208-8baf-039c-ae36-6c9425a8c137"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1539348693640,
+	"owner": "2444040",
+	"public": false,
+	"requests": [
+		{
+			"id": "059e7b41-4ac8-9e46-dac9-4a0bee4e0a4c",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "4",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "first_name",
+					"value": "Fas",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "last_name",
+					"value": "SD",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "avatar",
+					"value": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1539348835096,
+			"name": "Add user",
+			"description": "",
+			"collectionId": "b4801e63-e7e8-b12c-6c67-42973b765dd5",
+			"responses": []
+		},
+		{
+			"id": "1c045208-8baf-039c-ae36-6c9425a8c137",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b4801e63-e7e8-b12c-6c67-42973b765dd5",
+			"data": [
+				{
+					"key": "id",
+					"value": "4",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "first_name",
+					"value": "Fas",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "last_name",
+					"value": "SD",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "avatar",
+					"value": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "User - 1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1539348877182,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "263bff69-f3f2-fdc5-baa6-338de1be972f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b4801e63-e7e8-b12c-6c67-42973b765dd5",
+			"data": [
+				{
+					"key": "id",
+					"value": "4",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "first_name",
+					"value": "Fas",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "last_name",
+					"value": "SD",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "avatar",
+					"value": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1539348843322,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
